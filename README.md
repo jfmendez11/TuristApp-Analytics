@@ -1,6 +1,6 @@
 # How To Run
 * Download the repo to your local computer
-* ```$ npm install``` Make sure that your ```Node``` and ```npm``` versions are up to date
+* ```$ npm install``` (Make sure that your ```Node``` and ```npm``` versions are up to date)
 * Create ```.env``` file in the root directory of the project
 * Put the following:
 ```
@@ -13,7 +13,7 @@ REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
 REACT_APP_FIREBASE_APP_ID=
 REACT_APP_FIREBASE_MEASUREMENT_ID=
 ```
-* Go to the firebase console -> TuristApp -> Analytics Engine -> Config Button -> Copy all the config parameters in the ```.env``` file
+* Go to the firebase console -> TuristApp -> Analytics Engine -> Config Button -> Copy all the config parameters in the ```.env``` file, with their corresponding name
 * Finally ```$ npm start``` -> Development server will deploy on ```localhost:3000```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
